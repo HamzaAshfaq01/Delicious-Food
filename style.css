@@ -1,0 +1,687 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    overflow-x: hidden;
+}
+.container
+{
+    background-image: url('p3.jpg');
+    background-size: 100% 100%;
+    width:100%;
+    height:200vh;
+}
+.navbar-background
+{
+    background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url('p1.jpg');
+    background-size: 100% 100%;
+    width:99.8%;
+    height:100vh;
+    
+}
+/* .navbar-background .opacity
+{
+    width:99.8%;
+    height:100vh;
+    background: rgba(0, 0, 0, 0.6);
+
+} */
+.navbar
+{
+    background:none;
+    width:100%;
+    height:15vh;
+    border-bottom:1px solid white;
+    /* padding:1px; */
+    
+}
+.logo
+{
+    background-image: url('p2.png');
+    background-size: 100% 100%;
+    width:10%;
+    height:5vh;
+    margin-top:2%;
+    margin-left:6%;
+    float:left;
+    animation: ani 2s forwards ;
+}
+@keyframes ani
+{
+    from{margin-left:-10%;}
+    to{margin-left:6%;transform: scale(1.67);}
+}
+.navbar-nav
+{
+    /* background: red; */
+    width:67.8%;
+    height:10vh;
+    margin-top:1%;
+    /* margin-left:16%; */
+    float:right; 
+    opacity: 0;
+    animation:ani2 3s forwards;
+}
+@keyframes ani2
+{
+    from{margin-right:-50%;opacity: 1;}
+    to{margin-right:2%;opacity: 1;}
+}
+.navbar-nav ul
+{
+    height: 10vh;
+    /* border: 1px solid yellow; */
+}
+.navbar-nav ul li
+{
+    float:left;
+    color:white;
+    /* font-family:s; */
+    list-style: none;
+    margin:2.5%;
+    font-size: 18px;
+}
+.icons2
+{
+    margin-left: 760px;
+    position: absolute;
+    top:4.5%;
+}
+ul li:nth-child(7)
+{
+    background: red;
+    border-radius: 25px;
+    width:15%;
+    height:5vh;
+    margin-top:0.5%;
+    margin-left:1%;
+    text-align: center;
+    padding-top:1.7%;
+}
+ul li:nth-child(7):hover
+    {
+        background: none;
+        border:2px solid red;
+        color:red;
+    }
+
+    .navbar-background h3
+    {
+        font-family: 'Kaushan Script', cursive;
+        color:red;
+        font-size: 30px;
+        margin-top: 7%;
+        margin-left:9%;
+    }
+    
+    .navbar-background h1
+    {
+        font-family:'Roboto', sans-serif;;
+        color:white;
+        font-size: 80px;
+        margin-left:7%;
+        animation:we 8s steps(20) 5;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 1px solid yellow;
+    
+    }
+    @keyframes we
+    {
+        from{width:0;}
+        to{width:64%;}
+    }
+    
+    .navbar-background p
+    {
+        font-family:'Roboto', sans-serif;;
+        color:white;
+        font-size: 20px;
+        margin-left:7%;
+        margin-top:1%;
+    }
+    
+    .navbar-background button
+    {
+        background: red;
+        border-radius: 35px;
+        border: none;
+        color:white;
+        width:11%;
+        height:8vh;
+        margin-left:9%;
+        font-size: 20px;
+        margin-top:2%;
+    }
+    .navbar-background button:hover
+        {
+            background: none;
+            color:red;
+            border:1px solid red;
+        }
+        .body
+        {
+            
+            width:88.4%;
+            height:78vh;
+            /* position: relative; */
+            margin-left:11%;
+            margin-top:10%;
+        }
+        .body-pic
+        {
+            background-image: url('about-story.jpg');
+            background-size: 100% 100%;
+            width:35%;
+            height:60vh;
+            float:left;
+            margin-top:3%;
+        }
+        .body-text
+        {
+            
+            width:45%;
+            height:65vh;
+            float:left;
+            margin-top:1%;
+            margin-left:10%;
+        }
+        .body-end-pic
+        {
+            background-image: url('about-bg.png');
+            background-size: 100% 100%;
+            float:right;
+            width:15%;
+            height:25vh;
+            margin-top:-7%;
+        }
+
+        .body-text h3
+        {
+            font-family: 'Kaushan Script', cursive;
+            color:red;
+            font-size: 30px;
+            margin-top: 1%;
+        }
+        .body-text h1
+        {
+            font-family: 'Kulim Park', sans-serif;
+           color:black;
+            font-size: 35px;
+            margin-top:1%;
+            margin-bottom: 2%;
+
+        }
+        .body-text p
+        {
+            font-family: 'Kulim Park', sans-serif;
+            color:rgb(139, 139, 139);
+            font-size: 17px;
+            text-align: justify;
+           
+        }
+        .body-text  button
+        {
+            margin-top:4%;
+            width:23%;
+            height:6.5vh;
+            border-radius:20px;
+            border: 1px solid red;
+            color:red;
+            font-size: 15px;
+        }
+        .body-text  button:hover
+        {
+            cursor: pointer;
+            background: red;
+            color:white;
+        }
+
+        .event
+        {
+            width:99.4%;
+            height:65vh;
+            background-image: url('bg4.jpg');
+            background-size: 100% 100%;
+        }
+
+        .event .opacity
+        {
+            width:100%;
+            height:65vh;
+            background: rgba(0, 0, 0, 0.6);
+            padding:1px;
+            
+        }
+
+        .opacity-inner
+        {
+            /* background: yellow; */
+            width:18%;
+            height:55vh;
+            margin:3%;
+            float:left;
+        }
+        
+
+        .inner
+        {
+            width:50%;
+            height:20vh;
+            border-radius:50%;
+            border:1px solid red;
+            margin:5%;
+            margin-left:20%;
+            /* padding:5%; */
+        }
+        .opacity .in h1
+        {
+            color:white;
+            text-align: center;
+            font-size: 21px;
+            margin-top:15%;
+            margin:8%;
+           
+        }
+        .opacity .in p
+        {
+            color:white;
+            text-align: center;
+            font-size: 18px;
+            margin:5%;
+        }
+        .opacity .in hr
+        {
+            width:30%;
+            height:0.5vh;
+            background:red;
+            text-align: center;
+            margin-top: 10%;
+            margin-left:36%;
+            border:none;
+        }
+        .inner1
+        {
+            background-image: url('icon-foods.png');
+            background-size: 100% 100%;
+            width:57%;
+            height:12vh;
+            margin:20%;
+        }
+        .inner2
+        {
+            background-image: url('icon-events.png');
+            background-size: 100% 100%;
+            width:57%;
+            height:12vh;
+            margin:20%;
+        }
+        .inner3
+        {
+            background-image: url('icon-order.png');
+            background-size: 100% 100%;
+            width:57%;
+            height:12vh;
+            margin:20%;
+        }
+        .inner4
+        {
+            background-image: url('icon-delivery.png');
+            background-size: 100% 100%;
+            width:57%;
+            height:12vh;
+            margin:20%;
+        }
+        
+
+        .container1
+        {
+            width:100%;
+            height:200vh;
+            background-image: url('p5.jpg');
+            background-size: 100% 100%;
+        }
+        .left-pic
+        {
+            width:10%;
+            height:17vh;
+            background-image: url('menu-corner1.png');
+            background-size: 100% 100%;
+        }
+        .container1 h3
+        {
+            text-align:center;
+            font-family: 'Kaushan Script', cursive;
+            color:red;
+            font-size: 25px;
+
+        }
+        .container1 h1
+        {
+            text-align: center;
+        }
+        .con
+        {
+            width:80%;
+            height:20vh;
+            border-bottom: 2px solid lightgrey;
+            margin:5% 13%;
+        }
+        .con .div
+        {
+            margin-top:3%;
+            border:2px solid lightgrey;
+            width:15%;
+            height:14vh;
+            float: left;
+            margin-left:3%;
+            border-bottom:none ;
+        }
+        .con .div h1
+        {
+            font-size: 20px;
+            color:grey;
+            text-align: center;
+            margin:8%;
+        }
+        .con .div p
+        {
+            font-size: 15px;
+            color:rgb(156, 156, 156);
+            text-align: center;
+            
+        }
+        .container1 .box
+        {
+            width:40%;
+            height:30vh;
+            border: 2px  solid lightgray;
+            background: white;
+            float :left;
+            margin:2%;
+        }
+        .container1 .box1,.container1 .box3,.container1 .box5
+        {
+            margin-left:10%;
+        }
+        .box .bx
+        {
+            width:93%;
+            height:5vh;
+            background: red;
+            border:2px solid red;
+            /* float: right; */
+            text-align: center;
+            color:white;
+            font-size: 20px;
+            /* padding-top:2% ; */
+
+        }
+        .b1
+        {
+            width:11%;
+            height:5.7vh;
+            border:1px solid red;
+            padding:1px;
+            float: right;
+        }
+      .box h1
+        {
+            font-size: 22px;
+            color:grey;
+            text-align: left;
+            margin:5% 2%;   
+        }
+
+        .box h3,.box p
+        {
+            font-size: 15px;
+            color:grey;
+            text-align: left;
+            margin:5% 2%;  
+            font-family: none;
+        }
+
+        .delicious
+        {
+            width:100%;
+            height:130vh;
+            background-image: url('p6.png');
+            background-size: 100% 100%;
+        }
+        .delicious h2
+        {
+            font-family: 'Kaushan Script', cursive;
+            color:red;
+            text-align: center;
+            /* border: 1px solid; */
+        }
+        .delicious h1
+        {
+            color:white;
+            text-align: center;
+        }
+
+        .del-pic1
+        {
+            width:35%;
+            height:80vh;
+            border:5px solid rgb(83, 82, 82);
+            margin-left:8%;
+            margin-top:2%;
+            float:left;
+            background-image: url('p8.jpg');
+            background-size: 100% 100%;
+        }
+        .del-pic2
+        {
+            width:44%;
+            height:62vh;
+            border:5px solid rgb(187, 187, 187);
+            margin-left:-3%;
+            margin-top:6%;
+            float:left;
+            background: white;
+        }
+        .conn
+        {
+            width:90%;
+            height:7vh;
+            /* background: pink; */
+            margin:3% 5%;   
+        }
+        .d1
+        {
+            width:8%;
+            height:7vh;
+            background-image: url('dish.png');
+            /* border: 1px solid yellow; */
+            float:left;
+        }
+        .conn h1
+        {
+            color:rgb(54, 54, 54);
+            font-size: 19px;
+            /* padding-top:3%; */
+            float: left;
+            position: absolute;
+            left: 47%;
+            margin-top:1%;
+        }
+
+         .container2
+        {
+            background-image: url('p5.jpg');
+            background-size: 100% 100%;
+            height:150vh;
+            width:99%;
+            /* position: relative; */
+            padding:1px;
+        }
+         
+        .container2 h2
+        {
+            font-family:'Kaushan Script', cursive ;
+            color:red;
+            text-align: center;
+            margin-top:5%;
+            margin-bottom:1%;
+        }
+        .container2
+        {
+            /* font-family:'Kaushan Script', cursive ; */
+            text-align: center;
+           
+        }
+
+        .iner-container
+        {
+            width:75%;
+            height:92vh;
+            margin:5% 15%;
+            border:6px solid rgb(209, 208, 208);
+
+        }
+        .bb1
+        {
+            width:37%;
+            height:92vh;
+            /* border: 2px solid pink; */
+            margin-left:5%;
+            float:left;
+        }
+        .bb2
+        {
+            width:55%;
+            height:92vh;
+            border-left: 6px solid lightgrey  ;
+            float:right;
+            background-image: url('chef-01.jpg');
+            background-size: 100% 100%;
+        }
+
+        .bb1 h1
+        {
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-size: 20px;
+        }
+        .bb1 h3
+        {
+            font-family:Arial, Helvetica, sans-serif;
+            text-align: left;
+            font-size: 15px;
+            color:red;
+            margin-top:2%;
+        }
+        .bb1 hr
+        {
+            width:28%;
+            height:0.5vh;
+            margin-top:5%;
+            background:red;
+            border: none;
+        }
+        .bb1 p
+        {
+            text-align: justify;
+            font-size: 18px;
+            color:rgb(102, 101, 101);
+        }
+        .b-b
+        {
+            width:45%;
+            height:10vh;
+            background-image: url('chef_sign.png');
+            background-size: 100% 100%;
+            margin:20% 2%;
+        }
+
+        .container3
+        {
+            width:100%;
+            height:120vh;
+            background-image: url('p0.jpg');
+            background-size: 100% 100%;
+        }
+        .con-con
+        {
+            width:40%;
+            height:119vh;
+            background: black;
+            padding:1px;
+        }
+        .concon
+        {
+            width:80%;
+            height:105vh;
+            /* background:pink; */
+            margin-left:15%;
+            margin-top:15%;
+        }
+        .con-con h1
+        {
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            color:white;
+        }
+        .con-con h2
+        {
+            color:red;
+            font-family:'Kaushan Script', cursive;
+            margin:2% 0%;
+        }
+        form
+        {
+            /* border: 1px  solid red; */
+        }
+        form .name
+        {
+            width:97%;
+            height:8vh;
+            margin-top:5%;
+        }
+
+        form .tel
+        {
+            width:45%;
+            height:8vh;
+            float:left;
+            margin-top:5%; 
+        }
+        form .tl
+        {
+            margin-left: 4.7%;
+        }
+        textarea, button
+        {
+            margin-top:5%;
+        }
+        form>textarea
+        {
+            width: 97%;
+            height: 20vh;
+        }
+        form button
+        {
+            width:35%;
+            height:7vh;
+            border-radius: 20px ;
+            border: none;
+            background: red;
+            color:white;
+            font-size: 15px;
+        }
+        .concon button:hover
+        {
+            background: none;
+            color:red;
+            border:1px solid red;
+        }
+
+
+
+
